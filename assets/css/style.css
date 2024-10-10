@@ -1,0 +1,83 @@
+body {
+    align-content: center;
+}
+
+
+.hero {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid blueviolet;
+    margin: 20px 250px 20px 250px;
+    border-radius: 25px;
+    background-color: blueviolet;
+    
+}
+.hero .myphoto img{
+    width: 200px;
+   
+   
+}
+
+    .icons {
+        display: flex;
+        justify-content:center ;
+        justify-items: center;
+    }
+    .icons a {
+        margin-right: 15px;
+    }
+
+.hero .name h1 {
+text-transform: capitalize;
+text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.5);
+color: aliceblue;
+
+}
+.icons .fa-brands.fa-facebook.fa-5x {
+
+color: rgb(57, 40, 215);
+
+}
+.icons .fa-brands.fa-facebook:hover {
+
+color: rgb(14, 14, 14);
+box-shadow: 4px rgb(255, 255,255,0.5);
+}
+
+.icons .fa-brands.fa-facebook-messenger.fa-5x {
+
+color: rgb(235, 11, 201);
+
+}
+.icons .fa-brands.fa-facebook-messenger.fa-5x:hover {
+
+color: rgb(3, 3, 3);
+box-shadow: 4px rgb(255, 255,255,0.5);
+}
+
+.icons .fa-brands.fa-whatsapp.fa-5x {
+
+color: rgb(0, 165, 16);
+
+}
+.icons .fa-brands.fa-whatsapp.fa-5x:hover {
+
+color: rgb(3, 3, 3);
+box-shadow: 4px rgb(255, 255,255,0.5);
+}
+
+.icons .fa-brands.fa-instagram.fa-5x {
+
+color: rgb(165, 0, 154);
+
+}
+.icons .fa-brands.fa-instagram.fa-5x:hover {
+
+color: rgb(0, 0, 0);
+box-shadow: 4px rgb(255, 255,255,0.5);
+
+}
+
